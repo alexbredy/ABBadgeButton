@@ -22,7 +22,7 @@ pod "ABBadgeButton"
 
 ## Author
 
-Alexander Bredy, alex@goodwall.org
+Alexander Bredy
 
 ## License
 
