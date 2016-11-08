@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS 8.3+
+- Xcode 8.0+
+- Swift 3.0+
+
 ## Installation
 
 ABBadgeButton is available through [CocoaPods](http://cocoapods.org). To install
