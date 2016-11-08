@@ -1,0 +1,16 @@
+PODS:
+  - ABBadgeButton (0.1.0)
+
+DEPENDENCIES:
+  - ABBadgeButton (from `../`)
+
+EXTERNAL SOURCES:
+  ABBadgeButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ABBadgeButton: b266414d8250099d9d3a473a9f517fd9842c20e6
+
+PODFILE CHECKSUM: 6b4b889e0fd8604576d21a34239b999d4df5beb6
+
+COCOAPODS: 1.1.1

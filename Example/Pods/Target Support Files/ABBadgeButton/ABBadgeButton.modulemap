@@ -1,0 +1,6 @@
+framework module ABBadgeButton {
+  umbrella header "ABBadgeButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

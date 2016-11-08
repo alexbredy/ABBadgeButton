@@ -1,0 +1,22 @@
+{
+  "name": "ABBadgeButton",
+  "version": "0.1.0",
+  "summary": "A short description of ABBadgeButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ABBadgeButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alexander Bredy": "alex@goodwall.org"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ABBadgeButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ABBadgeButton/Classes/**/*"
+}
