@@ -11,18 +11,23 @@ import ABBadgeButton
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var chatButton: ABBadgeButton!
     @IBOutlet weak var imageButton: ABBadgeButton!
+    @IBOutlet weak var textButton: ABBadgeButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationBar.isUserInteractionEnabled = false
-        // Do any additional setup after loading the view, typically from a nib.
+
+        title = "BADGE BUTTON DEMO"
+        
+        textButton.badgeValue = "1"
+        textButton.badgeBackgroundColor = UIColor.blue
+        
         chatButton.titleLabel?.font = UIFont(name: "IcoMoon-Free", size: 30)
         chatButton.setTitle("\u{e96d}", for: .normal)
         chatButton.badgeValue = "5"
         chatButton.setTitleColor(UIColor.white, for: .normal)
+        chatButton.badgeOriginOffset = CGPoint(x: -5, y: 5)
     
         imageButton.badgeValue = "10"
         imageButton.badgeBorderColor = UIColor.white.cgColor
@@ -31,10 +36,11 @@ class ViewController: UIViewController {
         imageButton.badgeBorderWidth = 2
         imageButton.badgeBackgroundColor = UIColor.purple
         
-        let smileyButton = ABBadgeButton(frame: CGRect(x: 0, y: 0, width: 24, height: 24))
+        let smileyButton = ABBadgeButton(type: .system)
+        smileyButton.frame = CGRect(x: 0, y: 0, width: 24, height: 24)
         smileyButton.titleLabel?.font = UIFont(name: "IcoMoon-Free", size: 24)
         smileyButton.setTitle("\u{e9e9}", for: .normal)
-        smileyButton.badgeOriginOffset = CGPoint(x: 0, y: 0)
+        smileyButton.setTitleColor(UIColor.white, for: .normal)
         smileyButton.badgeValue = "9"
         smileyButton.addTarget(self, action: #selector(didSelectBarButton), for: .touchUpInside)
         
