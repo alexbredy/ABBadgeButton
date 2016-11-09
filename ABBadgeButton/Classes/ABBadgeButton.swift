@@ -1,6 +1,6 @@
 //
 //  ABBadgeButton.swift
-//  Goodwall
+//  ABBadgeButton
 //
 //  Created by Alexander Bredy on 11/08/2016.
 //  Copyright (c) 2016 Alexander Bredy. All rights reserved.
