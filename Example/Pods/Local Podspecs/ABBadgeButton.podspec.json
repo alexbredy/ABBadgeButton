@@ -1,18 +1,18 @@
 {
   "name": "ABBadgeButton",
   "version": "0.1.0",
-  "summary": "A short description of ABBadgeButton.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ABBadgeButton",
+  "summary": "UIButton subclass containing a fully customizable badge.",
+  "description": "ABBadgeButton is a UIButton subclass allowing you to set a fully customizable badge attached to it. The purpose of this button is to be able to set badges on any clickable view (thus button) in your app. All developers are welcome to contribute to this pod and improve it!",
+  "homepage": "https://github.com/alexbredy/ABBadgeButton",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Alexander Bredy": "alex@goodwall.org"
+    "Alexander Bredy": ""
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ABBadgeButton.git",
+    "git": "https://github.com/alexbredy/ABBadgeButton.git",
     "tag": "0.1.0"
   },
   "platforms": {

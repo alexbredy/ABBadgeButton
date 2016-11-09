@@ -11,12 +11,12 @@
 		19E8D8DFED96896D346F2DCEE6761C5B /* Pods-ABBadgeButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02899E01B9E037B40FEA2D17940E89DB /* Pods-ABBadgeButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2751CBDCD0E930D1BA220B72FB6685D1 /* Pods-ABBadgeButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A1362E3E04B07A17D7623883DF8897 /* Pods-ABBadgeButton_Tests-dummy.m */; };
 		44D37CA5EB9A1251A716ED1BFA8642F3 /* Pods-ABBadgeButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FDA106935582AA7F950C40F4BD3D35 /* Pods-ABBadgeButton_Example-dummy.m */; };
-		9A730CA64EA030E2CA7A300018E62D12 /* ABBadgeButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA4AA9BDBECE76E67F295AD844ADA55 /* ABBadgeButton-dummy.m */; };
+		54C1C1755AB4A1E429953593F1F3B9C7 /* ABBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488438F50257B1E2DB727DCCF902033D /* ABBadgeButton.swift */; };
+		5F054B4A2AFCA3CBC3540F931535AB6A /* ABBadgeButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA4AA9BDBECE76E67F295AD844ADA55 /* ABBadgeButton-dummy.m */; };
 		9DFA09490635B6D95DA61142C3687819 /* Pods-ABBadgeButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E5C6DDB22509AE860C14B7599912E7 /* Pods-ABBadgeButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF261F0E899B4C2289472F09CD72D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		C4332F7501C4999141074EA235C7E016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		DC6BC21B65A9615B3D03920CACDC9AFC /* ABBadgeButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A060F69C883BE05FA4541CAF8684BD /* ABBadgeButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED1593F7B1B820A3F1699DB83976B01E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7F39399AF917E349E528C7890C23D /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,6 @@
 		02899E01B9E037B40FEA2D17940E89DB /* Pods-ABBadgeButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABBadgeButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		09BCC0ADEE63ED4AF0F4CE66D2797FEF /* Pods-ABBadgeButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABBadgeButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		15C57AA334B26136E23958747332FA56 /* ABBadgeButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABBadgeButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15C7F39399AF917E349E528C7890C23D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		19A1362E3E04B07A17D7623883DF8897 /* Pods-ABBadgeButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABBadgeButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		1C204D25083FA62DD5EF15A635FA5BC3 /* ABBadgeButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABBadgeButton.xcconfig; sourceTree = "<group>"; };
 		2162235D5F0D045B1908AA8B7EAB04B0 /* Pods-ABBadgeButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ABBadgeButton_Example.modulemap"; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		34FDA106935582AA7F950C40F4BD3D35 /* Pods-ABBadgeButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABBadgeButton_Example-dummy.m"; sourceTree = "<group>"; };
 		36B6579B20E13CCC68DEA446A5D2EA6C /* Pods-ABBadgeButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABBadgeButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		457E7096FCF2BF070DDBD2A2F5B1A662 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488438F50257B1E2DB727DCCF902033D /* ABBadgeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ABBadgeButton.swift; sourceTree = "<group>"; };
 		4E3C2D3868F20E2E371A428760B9EB78 /* Pods_ABBadgeButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABBadgeButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		554825F6C05B1484D83BB4F1D1281351 /* Pods-ABBadgeButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABBadgeButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		58A060F69C883BE05FA4541CAF8684BD /* ABBadgeButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABBadgeButton-umbrella.h"; sourceTree = "<group>"; };
@@ -102,10 +102,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		39836F930FFAB283CF43FE6296255CA1 /* Classes */ = {
+		4AA703C224B92848C784C564658D05BD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				15C7F39399AF917E349E528C7890C23D /* ReplaceMe.swift */,
+				488438F50257B1E2DB727DCCF902033D /* ABBadgeButton.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 		A6791D8BE95944696463FC19C0996627 /* ABBadgeButton */ = {
 			isa = PBXGroup;
 			children = (
-				39836F930FFAB283CF43FE6296255CA1 /* Classes */,
+				4AA703C224B92848C784C564658D05BD /* Classes */,
 			);
 			path = ABBadgeButton;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BCC2D3DAD1B966913AF06A044514BF0 /* Build configuration list for PBXNativeTarget "ABBadgeButton" */;
 			buildPhases = (
-				17FAC1D0764724AD6B1FABAFE277AF4E /* Sources */,
+				813E332ADF483492B00386C096C5EEDD /* Sources */,
 				06A6A0253E599535ADFD0D00CA7D834C /* Frameworks */,
 				23D945BF32CCA2C3512F248F115F1551 /* Headers */,
 			);
@@ -312,14 +312,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					6076370D9C49F7990182F509DCABF205 = {
-						LastSwiftMigration = 0810;
-					};
-					CC04525CE2530D3B837E9DDD5E76F112 = {
-						LastSwiftMigration = 0810;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,20 +333,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17FAC1D0764724AD6B1FABAFE277AF4E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A730CA64EA030E2CA7A300018E62D12 /* ABBadgeButton-dummy.m in Sources */,
-				ED1593F7B1B820A3F1699DB83976B01E /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3BB9CEA56D6CE4D096970CAA637E26D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44D37CA5EB9A1251A716ED1BFA8642F3 /* Pods-ABBadgeButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E332ADF483492B00386C096C5EEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F054B4A2AFCA3CBC3540F931535AB6A /* ABBadgeButton-dummy.m in Sources */,
+				54C1C1755AB4A1E429953593F1F3B9C7 /* ABBadgeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +370,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16B3285F80726B6A148931A813EDE889 /* Debug */ = {
+		56A0C0989B5659F983005E7A56F33713 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C204D25083FA62DD5EF15A635FA5BC3 /* ABBadgeButton.xcconfig */;
 			buildSettings = {
@@ -441,12 +433,43 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6D6673BAF413D660BEE9479CF3A59A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C204D25083FA62DD5EF15A635FA5BC3 /* ABBadgeButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABBadgeButton/ABBadgeButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABBadgeButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABBadgeButton/ABBadgeButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ABBadgeButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -488,38 +511,6 @@
 			};
 			name = Release;
 		};
-		98AC49553FD6B4B615D9FBEB8A85E651 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C204D25083FA62DD5EF15A635FA5BC3 /* ABBadgeButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ABBadgeButton/ABBadgeButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ABBadgeButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ABBadgeButton/ABBadgeButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ABBadgeButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9A4CA1F6BAF6F8D2EF4DB730448A1152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70D7029C490AC821334BB972E8C4BE9F /* Pods-ABBadgeButton_Example.release.xcconfig */;
@@ -549,7 +540,6 @@
 				PRODUCT_NAME = Pods_ABBadgeButton_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -685,8 +675,8 @@
 		4BCC2D3DAD1B966913AF06A044514BF0 /* Build configuration list for PBXNativeTarget "ABBadgeButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16B3285F80726B6A148931A813EDE889 /* Debug */,
-				98AC49553FD6B4B615D9FBEB8A85E651 /* Release */,
+				56A0C0989B5659F983005E7A56F33713 /* Debug */,
+				6D6673BAF413D660BEE9479CF3A59A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

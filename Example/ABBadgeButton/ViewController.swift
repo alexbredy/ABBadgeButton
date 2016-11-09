@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import ABBadgeButton
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var buttonTest: ABBadgeButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        buttonTest.titleLabel?.font = UIFont(name: "IcoMoon-Free", size: 18)
+        buttonTest.setTitle("\u{e910}", for: .normal)
     }
 
     override func didReceiveMemoryWarning() {

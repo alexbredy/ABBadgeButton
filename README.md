@@ -24,6 +24,10 @@ it, simply add the following line to your Podfile:
 pod "ABBadgeButton"
 ```
 
+## Basic Usage
+
+##Customization
+
 ## Author
 
 Alexander Bredy

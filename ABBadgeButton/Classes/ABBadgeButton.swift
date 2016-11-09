@@ -1,5 +1,5 @@
 //
-//  BadgeButton.swift
+//  ABBadgeButton.swift
 //  Goodwall
 //
 //  Created by Alexander Bredy on 11/08/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class BadgeButton: UIButton {
+open class ABBadgeButton: UIButton {
     
     fileprivate var badge: UILabel
     
