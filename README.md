@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/ABBadgeButton.svg?style=flat)](http://cocoapods.org/pods/ABBadgeButton)
 [![Platform](https://img.shields.io/cocoapods/p/ABBadgeButton.svg?style=flat)](http://cocoapods.org/pods/ABBadgeButton)
 
+## Description
+
+[![abbadgebutton.png](https://s13.postimg.org/3zfy4lgbb/abbadgebutton.png)](https://postimg.org/image/kag20wssz/)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

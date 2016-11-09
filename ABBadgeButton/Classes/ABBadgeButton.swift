@@ -24,7 +24,7 @@ open class ABBadgeButton: UIButton {
         }
     }
     
-    open var badgeOriginOffset: CGPoint = CGPoint(x: -5, y: 5){
+    open var badgeOriginOffset: CGPoint = CGPoint(x: 0, y: 0){
         didSet{
             setBadgeText(badgeValue)
         }
