@@ -11,13 +11,24 @@ import ABBadgeButton
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var buttonTest: ABBadgeButton!
+    @IBOutlet weak var chatButton: ABBadgeButton!
+    @IBOutlet weak var imageButton: ABBadgeButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
-        buttonTest.titleLabel?.font = UIFont(name: "IcoMoon-Free", size: 18)
-        buttonTest.setTitle("\u{e910}", for: .normal)
+        chatButton.titleLabel?.font = UIFont(name: "IcoMoon-Free", size: 30)
+        chatButton.setTitle("\u{e96d}", for: .normal)
+        chatButton.badgeValue = "5"
+        chatButton.setTitleColor(UIColor.white, for: .normal)
+    
+        imageButton.badgeValue = "10"
+        imageButton.badgeBorderColor = UIColor.white.cgColor
+        imageButton.badgeOriginOffset = CGPoint(x: 0, y: 12)
+        imageButton.badgeFont = UIFont.systemFont(ofSize: 20)
+        imageButton.badgeBorderWidth = 2
+        imageButton.badgeBackgroundColor = UIColor.purple
     }
 
     override func didReceiveMemoryWarning() {

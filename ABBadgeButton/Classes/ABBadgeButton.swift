@@ -56,7 +56,7 @@ open class ABBadgeButton: UIButton {
     
     open var badgeFont: UIFont = UIFont.systemFont(ofSize: 12){
         didSet{
-            updateBadgeStyle()
+            setBadgeText(badgeValue)
         }
     }
     
@@ -79,7 +79,6 @@ open class ABBadgeButton: UIButton {
         badge.textAlignment = NSTextAlignment.center
         badge.backgroundColor = badgeBackgroundColor
         badge.textColor = badgeTextColor
-        badge.font = badgeFont
         badge.layer.borderWidth = badgeBorderWidth
         badge.layer.borderColor = badgeBorderColor
     }
@@ -89,6 +88,7 @@ open class ABBadgeButton: UIButton {
      */
     fileprivate func setBadgeText(_ text: String) {
         badge.text = text
+        badge.font = badgeFont
         badge.clipsToBounds = true
         badge.sizeToFit()
         
