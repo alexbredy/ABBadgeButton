@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DNb-I6-Iwh">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,26 +23,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghu-2c-cff" customClass="ABBadgeButton" customModule="ABBadgeButton">
-                                <rect key="frame" x="41" y="57" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="str-gz-ViI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="8Wr-77-Atx"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="BADGE BUTTON DEMO" id="3HZ-pH-hvj"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghu-2c-cff" customClass="ABBadgeButton" customModule="ABBadgeButton">
+                                <rect key="frame" x="24" y="90" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="AJH-Nh-P8V"/>
+                                    <constraint firstAttribute="width" constant="36" id="Umx-zo-cN9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoq-WH-Cw8" customClass="ABBadgeButton" customModule="ABBadgeButton">
-                                <rect key="frame" x="137" y="43" width="101" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoq-WH-Cw8" customClass="ABBadgeButton" customModule="ABBadgeButton">
+                                <rect key="frame" x="127.5" y="76" width="120" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eoq-WH-Cw8" secondAttribute="height" multiplier="2:1" id="JZv-la-2VS"/>
+                                    <constraint firstAttribute="width" constant="120" id="iDW-WZ-ftM"/>
+                                </constraints>
                                 <state key="normal" image="imageButton"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="str-gz-ViI" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="3kW-Hr-dTk"/>
+                            <constraint firstItem="eoq-WH-Cw8" firstAttribute="top" secondItem="str-gz-ViI" secondAttribute="bottom" constant="12" id="4vP-qJ-RDu"/>
+                            <constraint firstItem="ghu-2c-cff" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="NSU-ou-fZJ"/>
+                            <constraint firstAttribute="trailing" secondItem="str-gz-ViI" secondAttribute="trailing" id="ZwO-4C-2vZ"/>
+                            <constraint firstItem="eoq-WH-Cw8" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="cQA-sF-t6J"/>
+                            <constraint firstItem="str-gz-ViI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="rgA-v4-NY7"/>
+                            <constraint firstItem="ghu-2c-cff" firstAttribute="top" secondItem="str-gz-ViI" secondAttribute="bottom" constant="26" id="s8A-Wa-E1D"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="GxI-m4-TXw"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="chatButton" destination="ghu-2c-cff" id="s6c-Bx-gT1"/>
                         <outlet property="imageButton" destination="eoq-WH-Cw8" id="hu9-nm-avC"/>
+                        <outlet property="navigationBar" destination="str-gz-ViI" id="RtC-p2-yih"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hB9-ZO-IWm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DNb-I6-Iwh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rzk-RZ-JoI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="SOE-Ki-tdY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JnP-21-tUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
